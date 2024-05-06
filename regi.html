@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelter Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="logo1.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/7a51451734.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <nav>
+    <H1>Shelter <span>Home</span></H1>
+    <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#help">HELP</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    <a href="login.html" id="login">LOGIN</a>
+</nav>
+  <div class="volunteer-form">
+    <h1>Volunteer Registration</h1>
+    <div>
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="tel" name="phone" placeholder="Phone" required>
+      <textarea name="availability" placeholder="Availability (e.g., weekdays, weekends)" rows="3" required></textarea>
+      <textarea name="skills" placeholder="Skills/Experience" rows="3"></textarea>
+      <textarea name="interests" placeholder="Interests/Hobbies" rows="3"></textarea>
+      <input type="text" name="emergency_contact" placeholder="Emergency Contact (Name & Phone)" required>
+      <textarea name="comments" placeholder="Comments/Additional Information" rows="3"></textarea>
+      <label><input type="checkbox" name="agree_terms" required> I agree to the <a href="#">Terms and Conditions</a></label>
+      <a href="index.html"><button >Submit</button></a>
+  </div>
+  </div>
+</body>
+</html>
+
+
+<style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    /* padding: 20px; */
+    background-image: linear-gradient(to right, #ffba00, #ffbc0c, #febe15, #fec01c, #fec222);
+
+    color: #fff;
+  }
+  
+  .volunteer-form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 3vh;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  select {
+    height: 100px;
+  }
+  
+  button {
+    background-color: #0c3b2e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-label input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  </style>
+</html>
